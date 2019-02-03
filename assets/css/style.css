@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Verdana', 'Arial-BoldMT', 'AdobeInvisFont', 'MyriadPro-Regular';
+}
+
+/* Header Logo */
+
+.header-logo {
+    padding: 20px 0;
+}
+
+.header-logo img {
+    width: 15%;
+}
+
+/* Header Logo */
+
+/* Navbar */
+
+.header .menu {
+    background-color: #003366 !important;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 25px;  
+    padding: 10px 20px !important;
+    transition: all 0.7s linear;
+
+}
+
+.menu ul li.active {
+    background-color: #13a3de !important;
+}
+
+.menu ul li:hover {
+    background-color: #13a3de;
+    transition: all 0.7s linear;
+}
+
+.menu ul li a {
+    color: #fff !important;
+    font-size: 12px;
+}
+
+/* Navbar */
+
+/* Banner */
+
+.zoominheader {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+    background: url(../../assets/images/banner.png);
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-animation: zoomin 10s ease-in;
+    animation: zoomin 7s ease-in;
+    transition: all .5s ease-in;
+    overflow: hidden;
+}
+  
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+    0% {transform: scale(0);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(0);}
+}
+
+@keyframes zoomin {
+    0% {transform: scale(0);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+
+}
+
+/* Banner */
+
+/* AE */
+
+.ae-section {
+    background: #e5e5e5;
+    padding: 15px 0;
+}
+
+.ae-section a {
+    color: #13a3de;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s linear;
+}
+
+.ae-section a:hover {
+    transition: all 1s linear;
+    color: #003366;
+    letter-spacing: 2px;
+}
+
+/* AE */
+
+/* Two Col */
+
+.two-col {
+    padding: 30px 0;
+}
+
+.two-col .title h5 {
+    color: #609d9c;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.two-col .title h5::after {
+    content: '';
+    position: absolute;
+    background: #609d9c;
+    width: 35px;
+    height: 4px;
+    left: 16px;
+    top: 28px;
+}
+
+.two-col .wrapper h6 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.two-col .wrapper p {
+    font-size: 14px;
+    color: #333333;
+}
+
+button {
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    background: #13a3de !important;
+    border-color: #13a3de !important;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: all 0.7s linear;
+}
+
+button:hover {
+    transition: all 0.7s linear;
+    background-color: #003366 !important;
+    border-color: #003366 !important;
+}
+
+button svg {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.two-col .border-lg {
+    border: 1px solid #f2f2f2;
+}
+
+/* Two Col */
+
+/* Three Col */
+
+.three-col {
+    background: #f2f2f2;
+    padding: 35px 0;
+}
+
+.three-col h5 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.three-col .card {
+    border: 0;
+    box-shadow: 4px 2px 8px 0px #b1b1b1;
+    border-radius: 0px !important;
+}
+
+.three-col .card-1 h5 {
+    color: rgba(151, 210, 118, 255);
+}
+
+.three-col .card-2 h5 {
+    color: rgba(14, 205, 81, 255);
+}
+
+.three-col .card-3 h5 {
+    color: rgba(13, 139, 197, 255);
+}
+
+.three-col p {
+    font-size: 12px;
+}
+
+.CN {
+    padding: 30px 15px 0;
+}
+
+.CN  p {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+/* Three Col */
+
+/* DOP */
+
+.dop-section {
+    padding: 35px 0;
+    text-align: center;
+}
+
+.dop-section .button-1 img {
+    width: 25px;
+}
+
+.dop-section .button-2 img {
+    width: 38px;
+}
+
+.dop-section .button-3 img {
+    width: 33px;
+}
+
+.button-1, .button-2, .button-3 {
+    border: 2px solid #003366;
+    margin: 30px 15px;
+    padding: 15px 20px;
+    overflow: hidden;
+}
+
+.button-1 span, .button-2 span, .button-3 span {
+    float: left;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.button-1 img, .button-2 img, .button-3 img {
+    float: right;
+}
+
+.dop p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+/* DOP */
+
+/* Footer */
+
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: all 0.7s linear;
+}
+
+footer ul li a:hover {
+    color: #13a3de;
+    transition: all 0.7s linear;
+}
+
+footer .social-icons span {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer .footer-text p {
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+footer .border-section {
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+/* Footer */
+
+/* Particle */
+
+.wrapper-background {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -3;
+}
+
+.wrapper-background .particles-section {
+    position: relative;
+    z-index: 1;
+}
+
+/* Particle */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .two-col .wrapper {
+        padding: 0px 25px !important;
+    }
+
+    .two-col .row {
+        margin: 0px !important;
+    }
+
+    .two-col .col-lg-6, .col-md-6, .col-12 {
+        padding: 0px !important;
+    }
+
+    .two-col .title h5::after {
+        left: 0px !important;
+    }
+
+    .card-deck {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
+
+    .card-body {
+        padding: 20px 20px  20px !important;
+    }
+
+    .three-col .card-2 button {
+        margin-top: 17px !important;
+    }
+    
+    .three-col .card-1 button {
+        margin-top: 35px !important;
+    }
+
+    footer .social-icons {
+        text-align: right;
+        padding-right: 30px;
+        margin: 45px 0;
+    }
+
+    footer .logo {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    footer .social-icons::after {
+        content: "";
+        position: absolute;
+        border: 1px solid #b2b2b2;
+        height: 100px;
+        right: 0;
+        top: -30px;
+    }
+
+} 
+
+/* From Phone to Tablets */
+@media only screen and (max-width: 991px) {
+
+    .menu ul li {
+        margin: 5px 0px !important;  
+    } 
+    
+    .navbar-light .navbar-toggler-icon {
+        background-image: none !important;
+    }
+
+    .navbar-light .navbar-toggler-icon svg {
+        color: #fff !important;
+        font-size: 25px !important;
+    }
+
+    .two-col .border-lg {
+        border: 0px !important;
+    }
+
+    .card {
+        width: 100% !important;
+    }
+
+    .three-col .card-1 button {
+        margin-top: 59px !important;
+    }
+
+    .three-col .card-3 button {
+        margin-top: 22px !important;
+    }
+
+    .CN {
+        padding: 30px 0px 0 !important;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+    .card-deck-2, .card-deck-3 {
+        margin-top: 20px !important;
+    }
+
+    .button-1, .button-2, .button-3 {
+        margin: 30px 0 !important;
+    }
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...} 
