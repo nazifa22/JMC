@@ -147,7 +147,7 @@ body {
     color: #333333;
 }
 
-button {
+.two-col button {
     border-radius: 0px !important;
     font-size: 12px !important;
     background: #13a3de !important;
@@ -157,13 +157,13 @@ button {
     transition: all 0.7s linear;
 }
 
-button:hover {
+.two-col button:hover {
     transition: all 0.7s linear;
     background-color: #003366 !important;
     border-color: #003366 !important;
 }
 
-button svg {
+.two-col button svg {
     font-size: 14px;
     font-weight: bold;
 }
@@ -216,6 +216,27 @@ button svg {
 .CN  p {
     font-size: 12px;
     line-height: 24px;
+}
+
+.three-col button {
+    border-radius: 0px !important;
+    font-size: 12px !important;
+    background: #13a3de !important;
+    border-color: #13a3de !important;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: all 0.7s linear;
+}
+
+.three-col button:hover {
+    transition: all 0.7s linear;
+    background-color: #003366 !important;
+    border-color: #003366 !important;
+}
+
+.three-col button svg {
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* Three Col */
@@ -435,6 +456,10 @@ footer .border-section {
 
     .button-1, .button-2, .button-3 {
         margin: 20px 15px 0 !important;
+    }
+
+    .zoominheader {
+        background-size: contain !important;
     }
 
 }
